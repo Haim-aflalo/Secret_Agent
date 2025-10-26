@@ -6,9 +6,8 @@ class Mission:
         self.target_location = target_location
         self.assigned_agent = None
 
-    def add_agent(self, agent:Agent):
-        print(agent.code_name)
-        # self.assigned_agent = agent
+    def add_agent(self,agent : Agent):
+        self.assigned_agent = agent
 
     def brief(self):
         print("Mission:",self.mission_name,", Target:",self.target_location,", Agent:",self.assigned_agent.code_name)

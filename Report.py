@@ -1,0 +1,7 @@
+from Agent import Agent
+class Report:
+    def __init__(self,summary,urgency_level, submitted_by: Agent):
+        self.summary = summary
+        self.urgency_level = urgency_level
+        self.submitted_by = None
+
